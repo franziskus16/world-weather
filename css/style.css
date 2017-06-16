@@ -1,0 +1,116 @@
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+
+}
+
+body {
+    background: #c0c0aa; /* fallback for old browsers */
+    background: -webkit-linear-gradient(#c0c0aa , #1ce); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(, #c0c0aa , #1ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo {
+    height:100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+.divider {
+    height: 2px;
+    width:100%;
+    display:block; /* for use on default inline elements like span */
+    margin: 20px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.row {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.grupo{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin:20px;
+    margin-right:15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 10pt;
+    -webkit-box-shadow: 9px 13px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 9px 13px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 9px 13px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.grupo:hover {
+    transform: scale(1.3, 1.3);
+    opacity: 1;
+}
+
+
+#grid {
+    padding-left:50px;
+    padding-top:30px;
+}
+.parrafo{
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 20pt;
+    border-bottom-left-radius:  10px;
+    -webkit-box-shadow: 9px 13px 0px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 9px 13px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 9px 13px 5px 0px rgba(0,0,0,0.2);
+    text-shadow: 4px 4px #000;
+
+
+}
+.parrafo2{
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 16pt;
+    text-shadow: 3px 3px #000;
+
+}
+
+.parrafo3{
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 10pt;
+    text-shadow: 3px 3px #000;
+
+
+}
+#footer {
+    height:100px;
+    width:auto;
+
+}
+
+.footertext {
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 15pt;
+    padding-top: 20px;
+}
+
+.retoque{
+    height: 100%;
+    width: 100%;
+    
+}
+.redonda{
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    
+}
